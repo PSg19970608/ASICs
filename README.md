@@ -33,7 +33,8 @@ export SCTDB_USER=pk
 
 ./RUNITSDAQ.sh
 
-some error as flows: error1:Please set SCTDAQ_VAR to point to config area: solution:source setup.sh
+some error as flows: error1:Please set SCTDAQ_VAR to point to config area: 
+solution:source setup.sh
 
 error2:TTi::TTi (viOpen) for UNKNOWN at resource /dev/serial/by-id/usb-TTi_MX_Series_PS U_483216-if00 failed with code 0xffffffff (TSerialProxy: IO Error) solution:change ./sctdaq/itsdaq-sw/macros/Stavelet.cpp,let variable Int_t lvtype = 0; Int_t hvtype =0;
 
